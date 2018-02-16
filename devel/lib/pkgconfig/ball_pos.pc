@@ -1,0 +1,8 @@
+prefix=/home/tsaichiawen/ros/workspace/finalPJ/devel
+
+Name: ball_pos
+Description: Description of ball_pos
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/tsaichiawen/ros/workspace/finalPJ/devel/lib 
+Requires: 

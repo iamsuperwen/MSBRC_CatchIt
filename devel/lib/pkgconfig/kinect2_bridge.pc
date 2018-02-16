@@ -1,0 +1,8 @@
+prefix=/home/tsaichiawen/ros/workspace/finalPJ/devel
+
+Name: kinect2_bridge
+Description: Description of kinect2_bridge
+Version: 0.0.1
+Cflags: -I/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_bridge/include
+Libs: -L/home/tsaichiawen/ros/workspace/finalPJ/devel/lib 
+Requires: kinect2_registration
