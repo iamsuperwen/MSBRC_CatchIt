@@ -1,0 +1,8 @@
+prefix=/home/catchme/ros/workspaces/catch_ws/devel
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.12.7
+Cflags: 
+Libs: -L/home/catchme/ros/workspaces/catch_ws/devel/lib 
+Requires: 

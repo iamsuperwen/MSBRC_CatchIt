@@ -1,8 +1,8 @@
-# Install script for directory: /home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_calibration
+# Install script for directory: /home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tsaichiawen/ros/workspace/finalPJ/install")
+  set(CMAKE_INSTALL_PREFIX "/home/catchme/ros/workspaces/catch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/finalPJ/build/iai_kinect2/kinect2_calibration/catkin_generated/installspace/kinect2_calibration.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/build/iai_kinect2/kinect2_calibration/catkin_generated/installspace/kinect2_calibration.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_calibration/cmake" TYPE FILE FILES
-    "/home/tsaichiawen/ros/workspace/finalPJ/build/iai_kinect2/kinect2_calibration/catkin_generated/installspace/kinect2_calibrationConfig.cmake"
-    "/home/tsaichiawen/ros/workspace/finalPJ/build/iai_kinect2/kinect2_calibration/catkin_generated/installspace/kinect2_calibrationConfig-version.cmake"
+    "/home/catchme/ros/workspaces/catch_ws/build/iai_kinect2/kinect2_calibration/catkin_generated/installspace/kinect2_calibrationConfig.cmake"
+    "/home/catchme/ros/workspaces/catch_ws/build/iai_kinect2/kinect2_calibration/catkin_generated/installspace/kinect2_calibrationConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_calibration" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_calibration/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_calibration" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_calibration/package.xml")
 endif()
 

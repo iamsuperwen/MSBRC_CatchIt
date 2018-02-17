@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kinect2_bridge.dir/src/kinect2_bridge.cpp.o"
-  "/home/tsaichiawen/ros/workspace/finalPJ/devel/lib/kinect2_bridge/kinect2_bridge.pdb"
-  "/home/tsaichiawen/ros/workspace/finalPJ/devel/lib/kinect2_bridge/kinect2_bridge"
+  "/home/catchme/ros/workspaces/catch_ws/devel/lib/kinect2_bridge/kinect2_bridge.pdb"
+  "/home/catchme/ros/workspaces/catch_ws/devel/lib/kinect2_bridge/kinect2_bridge"
 )
 
 # Per-language clean rules from dependency scanning.

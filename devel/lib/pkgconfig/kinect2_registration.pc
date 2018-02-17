@@ -1,8 +1,8 @@
-prefix=/home/tsaichiawen/ros/workspace/finalPJ/devel
+prefix=/home/catchme/ros/workspaces/catch_ws/devel
 
 Name: kinect2_registration
 Description: Description of kinect2_registration
 Version: 0.0.1
-Cflags: -I/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration/include -I/usr/include
-Libs: -L/home/tsaichiawen/ros/workspace/finalPJ/devel/lib -lkinect2_registration /usr/lib/x86_64-linux-gnu/libOpenCL.so
+Cflags: -I/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration/include -I/usr/include
+Libs: -L/home/catchme/ros/workspaces/catch_ws/devel/lib -lkinect2_registration /usr/lib/x86_64-linux-gnu/libOpenCL.so
 Requires: 

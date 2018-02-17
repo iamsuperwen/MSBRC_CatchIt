@@ -67,14 +67,14 @@ set(kinect2_registration_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(kinect2_registration_SOURCE_PREFIX /home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration)
-  set(kinect2_registration_DEVEL_PREFIX /home/tsaichiawen/ros/workspace/finalPJ/devel)
+  set(kinect2_registration_SOURCE_PREFIX /home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration)
+  set(kinect2_registration_DEVEL_PREFIX /home/catchme/ros/workspaces/catch_ws/devel)
   set(kinect2_registration_INSTALL_PREFIX "")
   set(kinect2_registration_PREFIX ${kinect2_registration_DEVEL_PREFIX})
 else()
   set(kinect2_registration_SOURCE_PREFIX "")
   set(kinect2_registration_DEVEL_PREFIX "")
-  set(kinect2_registration_INSTALL_PREFIX /home/tsaichiawen/ros/workspace/finalPJ/install)
+  set(kinect2_registration_INSTALL_PREFIX /home/catchme/ros/workspaces/catch_ws/install)
   set(kinect2_registration_PREFIX ${kinect2_registration_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(kinect2_registration_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration/include;/usr/include " STREQUAL " ")
+if(NOT "/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration/include;/usr/include " STREQUAL " ")
   set(kinect2_registration_INCLUDE_DIRS "")
-  set(_include_dirs "/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration/include;/usr/include")
+  set(_include_dirs "/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration/include;/usr/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registra
         message(FATAL_ERROR "Project 'kinect2_registration' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'kinect2_registration' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'kinect2_registration' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration/${idir}'.  ${_report}")
     endif()
     _list_append_unique(kinect2_registration_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tsaichiawen/ros/workspace/finalPJ/devel/lib;/home/tsaichiawen/ros/workspace/finalPJ/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/catchme/ros/workspaces/catch_ws/devel/lib;/home/catchme/ros/workspaces/catch_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

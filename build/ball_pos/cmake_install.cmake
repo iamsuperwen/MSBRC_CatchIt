@@ -1,8 +1,8 @@
-# Install script for directory: /home/tsaichiawen/ros/workspace/finalPJ/src/ball_pos
+# Install script for directory: /home/catchme/ros/workspaces/catch_ws/src/ball_pos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tsaichiawen/ros/workspace/finalPJ/install")
+  set(CMAKE_INSTALL_PREFIX "/home/catchme/ros/workspaces/catch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/finalPJ/build/ball_pos/catkin_generated/installspace/ball_pos.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/build/ball_pos/catkin_generated/installspace/ball_pos.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_pos/cmake" TYPE FILE FILES
-    "/home/tsaichiawen/ros/workspace/finalPJ/build/ball_pos/catkin_generated/installspace/ball_posConfig.cmake"
-    "/home/tsaichiawen/ros/workspace/finalPJ/build/ball_pos/catkin_generated/installspace/ball_posConfig-version.cmake"
+    "/home/catchme/ros/workspaces/catch_ws/build/ball_pos/catkin_generated/installspace/ball_posConfig.cmake"
+    "/home/catchme/ros/workspaces/catch_ws/build/ball_pos/catkin_generated/installspace/ball_posConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_pos" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/finalPJ/src/ball_pos/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_pos" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/src/ball_pos/package.xml")
 endif()
 

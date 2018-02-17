@@ -1,8 +1,8 @@
-# Install script for directory: /home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration
+# Install script for directory: /home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tsaichiawen/ros/workspace/finalPJ/install")
+  set(CMAKE_INSTALL_PREFIX "/home/catchme/ros/workspaces/catch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,22 +33,22 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/finalPJ/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registration.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registration.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_registration/cmake" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/finalPJ/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registration.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_registration/cmake" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registration.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_registration/cmake" TYPE FILE FILES
-    "/home/tsaichiawen/ros/workspace/finalPJ/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registrationConfig.cmake"
-    "/home/tsaichiawen/ros/workspace/finalPJ/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registrationConfig-version.cmake"
+    "/home/catchme/ros/workspaces/catch_ws/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registrationConfig.cmake"
+    "/home/catchme/ros/workspaces/catch_ws/build/iai_kinect2/kinect2_registration/catkin_generated/installspace/kinect2_registrationConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_registration" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinect2_registration" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -58,7 +58,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkinect2_registration.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tsaichiawen/ros/workspace/finalPJ/devel/lib/libkinect2_registration.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/catchme/ros/workspaces/catch_ws/devel/lib/libkinect2_registration.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkinect2_registration.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkinect2_registration.so")
     file(RPATH_CHANGE
@@ -72,6 +72,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kinect2_registration" TYPE DIRECTORY FILES "/home/tsaichiawen/ros/workspace/finalPJ/src/iai_kinect2/kinect2_registration/include/kinect2_registration/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kinect2_registration" TYPE DIRECTORY FILES "/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration/include/kinect2_registration/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

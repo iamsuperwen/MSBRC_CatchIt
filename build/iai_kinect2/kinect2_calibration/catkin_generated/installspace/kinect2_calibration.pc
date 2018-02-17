@@ -1,8 +1,8 @@
-prefix=/home/tsaichiawen/ros/workspace/finalPJ/install
+prefix=/home/catchme/ros/workspaces/catch_ws/install
 
 Name: kinect2_calibration
 Description: Description of kinect2_calibration
 Version: 0.0.1
 Cflags: 
-Libs: -L/home/tsaichiawen/ros/workspace/finalPJ/install/lib 
+Libs: -L/home/catchme/ros/workspaces/catch_ws/install/lib 
 Requires: 

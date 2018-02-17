@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kinect2_viewer.dir/src/viewer.cpp.o"
-  "/home/tsaichiawen/ros/workspace/finalPJ/devel/lib/kinect2_viewer/kinect2_viewer.pdb"
-  "/home/tsaichiawen/ros/workspace/finalPJ/devel/lib/kinect2_viewer/kinect2_viewer"
+  "/home/catchme/ros/workspaces/catch_ws/devel/lib/kinect2_viewer/kinect2_viewer.pdb"
+  "/home/catchme/ros/workspaces/catch_ws/devel/lib/kinect2_viewer/kinect2_viewer"
 )
 
 # Per-language clean rules from dependency scanning.

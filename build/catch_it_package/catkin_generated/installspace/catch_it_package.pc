@@ -1,0 +1,8 @@
+prefix=/home/catchme/ros/workspaces/catch_ws/install
+
+Name: catch_it_package
+Description: Description of catch_it_package
+Version: 0.0.0
+Cflags: -I/home/catchme/ros/workspaces/catch_ws/install/include
+Libs: -L/home/catchme/ros/workspaces/catch_ws/install/lib -ltargetclass -lkalmanfilterclass
+Requires: roscpp rospy std_msgs message_runtime visualization_msgs
