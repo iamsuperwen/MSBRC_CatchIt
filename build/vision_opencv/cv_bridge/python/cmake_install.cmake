@@ -1,8 +1,8 @@
-# Install script for directory: /home/catchme/ros/workspaces/catch_ws/src/vision_opencv/cv_bridge/python
+# Install script for directory: /home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/cv_bridge/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/catchme/ros/workspaces/catch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tsaichiawen/ros/workspace/catch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cv_bridge/boost" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/devel/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cv_bridge/boost" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/catch_ws/devel/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py")
 endif()
 

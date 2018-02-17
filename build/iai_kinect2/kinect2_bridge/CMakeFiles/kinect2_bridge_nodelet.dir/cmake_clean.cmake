@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kinect2_bridge_nodelet.dir/src/kinect2_bridge.cpp.o"
-  "/home/catchme/ros/workspaces/catch_ws/devel/lib/libkinect2_bridge_nodelet.pdb"
-  "/home/catchme/ros/workspaces/catch_ws/devel/lib/libkinect2_bridge_nodelet.so"
+  "/home/tsaichiawen/ros/workspace/catch_ws/devel/lib/libkinect2_bridge_nodelet.pdb"
+  "/home/tsaichiawen/ros/workspace/catch_ws/devel/lib/libkinect2_bridge_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

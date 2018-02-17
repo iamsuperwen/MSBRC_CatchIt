@@ -12,7 +12,7 @@
   <!--LAUNCH VISUALIZATION MARKER NODE-->
   <node name="target_visualization_node" pkg="catch_it_package" type="target_vis"/>
 
-  <node name="target_pos_node" pkg="catch_it_package" type="dummy_target_pose_pub"/>
+  <!--<node name="target_pos_node" pkg="catch_it_package" type="dummy_target_pose_pub"/>-->
     
   <!--LAUNCH POSITION PREDICTION NODE-->
   <node name="prediction_node" pkg="catch_it_package" type="pos_predict" output="screen"/>

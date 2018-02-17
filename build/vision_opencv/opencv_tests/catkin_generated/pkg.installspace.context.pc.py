@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "opencv_tests"
-PROJECT_SPACE_DIR = "/home/catchme/ros/workspaces/catch_ws/install"
+PROJECT_SPACE_DIR = "/home/tsaichiawen/ros/workspace/catch_ws/install"
 PROJECT_VERSION = "1.12.7"

@@ -67,14 +67,14 @@ set(image_geometry_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(image_geometry_SOURCE_PREFIX /home/catchme/ros/workspaces/catch_ws/src/vision_opencv/image_geometry)
-  set(image_geometry_DEVEL_PREFIX /home/catchme/ros/workspaces/catch_ws/devel)
+  set(image_geometry_SOURCE_PREFIX /home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/image_geometry)
+  set(image_geometry_DEVEL_PREFIX /home/tsaichiawen/ros/workspace/catch_ws/devel)
   set(image_geometry_INSTALL_PREFIX "")
   set(image_geometry_PREFIX ${image_geometry_DEVEL_PREFIX})
 else()
   set(image_geometry_SOURCE_PREFIX "")
   set(image_geometry_DEVEL_PREFIX "")
-  set(image_geometry_INSTALL_PREFIX /home/catchme/ros/workspaces/catch_ws/install)
+  set(image_geometry_INSTALL_PREFIX /home/tsaichiawen/ros/workspace/catch_ws/install)
   set(image_geometry_PREFIX ${image_geometry_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(image_geometry_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/image_geometry/include;/opt/ros/kinetic/include/opencv-3.3.1;/opt/ros/kinetic/include/opencv-3.3.1/opencv " STREQUAL " ")
+if(NOT "/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/image_geometry/include;/opt/ros/kinetic/include/opencv-3.3.1;/opt/ros/kinetic/include/opencv-3.3.1/opencv " STREQUAL " ")
   set(image_geometry_INCLUDE_DIRS "")
-  set(_include_dirs "/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/image_geometry/include;/opt/ros/kinetic/include/opencv-3.3.1;/opt/ros/kinetic/include/opencv-3.3.1/opencv")
+  set(_include_dirs "/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/image_geometry/include;/opt/ros/kinetic/include/opencv-3.3.1;/opt/ros/kinetic/include/opencv-3.3.1/opencv")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/image_geometry " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/image_geometry/i
         message(FATAL_ERROR "Project 'image_geometry' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'image_geometry' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/image_geometry/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'image_geometry' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/image_geometry/${idir}'.  ${_report}")
     endif()
     _list_append_unique(image_geometry_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/catchme/ros/workspaces/catch_ws/devel/lib;/home/catchme/ros/workspaces/catch_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/tsaichiawen/ros/workspace/catch_ws/devel/lib;/home/tsaichiawen/ros/workspace/catch_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

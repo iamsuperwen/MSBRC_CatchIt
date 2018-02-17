@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ball_pos\"
 
-CXX_INCLUDES = -I/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/cv_bridge/include -isystem /opt/ros/kinetic/include/opencv-3.3.1 -isystem /opt/ros/kinetic/include/opencv-3.3.1/opencv -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/tsaichiawen/ros/workspace/catch_ws/devel/include -I/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/cv_bridge/include -I/home/tsaichiawen/ros/workspace/catch_ws/src/catch_it_package/include -isystem /opt/ros/kinetic/include/opencv-3.3.1 -isystem /opt/ros/kinetic/include/opencv-3.3.1/opencv -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

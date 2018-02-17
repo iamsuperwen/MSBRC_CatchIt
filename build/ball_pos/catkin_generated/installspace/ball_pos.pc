@@ -1,8 +1,8 @@
-prefix=/home/catchme/ros/workspaces/catch_ws/install
+prefix=/home/tsaichiawen/ros/workspace/catch_ws/install
 
 Name: ball_pos
 Description: Description of ball_pos
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/catchme/ros/workspaces/catch_ws/install/lib 
-Requires: 
+Libs: -L/home/tsaichiawen/ros/workspace/catch_ws/install/lib 
+Requires: cv_bridge roscpp rospy sensor_msgs std_msgs message_runtime

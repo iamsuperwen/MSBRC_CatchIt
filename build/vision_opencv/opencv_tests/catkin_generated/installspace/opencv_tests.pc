@@ -1,8 +1,8 @@
-prefix=/home/catchme/ros/workspaces/catch_ws/install
+prefix=/home/tsaichiawen/ros/workspace/catch_ws/install
 
 Name: opencv_tests
 Description: Description of opencv_tests
 Version: 1.12.7
 Cflags: 
-Libs: -L/home/catchme/ros/workspaces/catch_ws/install/lib 
+Libs: -L/home/tsaichiawen/ros/workspace/catch_ws/install/lib 
 Requires: 

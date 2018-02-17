@@ -140,7 +140,7 @@ public:
     catch_it_package::Target_pos goal_msg;
 
     vis_pub = nh_.advertise<visualization_msgs::Marker>( "visualization_marker", 0 );
-    goal_pub = nh.advertise<catch_it_package::Target_pos>("target_pos", 1000);
+    goal_pub = nh_.advertise<catch_it_package::Target_pos>("target_pos", 1000);
 
     for(int i=0; i<9; i++)
     {

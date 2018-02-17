@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pos_predict.dir/src/predict_control.cpp.o"
-  "/home/catchme/ros/workspaces/catch_ws/devel/lib/catch_it_package/pos_predict.pdb"
-  "/home/catchme/ros/workspaces/catch_ws/devel/lib/catch_it_package/pos_predict"
+  "/home/tsaichiawen/ros/workspace/catch_ws/devel/lib/catch_it_package/pos_predict.pdb"
+  "/home/tsaichiawen/ros/workspace/catch_ws/devel/lib/catch_it_package/pos_predict"
 )
 
 # Per-language clean rules from dependency scanning.

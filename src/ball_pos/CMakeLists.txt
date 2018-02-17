@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   image_transport
   visualization_msgs # marker
   message_generation # msg
+  catch_it_package
 )
 find_package(OpenCV REQUIRED)
 
@@ -53,11 +54,10 @@ find_package(OpenCV REQUIRED)
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-add_message_files(
-  DIRECTORY msg
-  FILES
-  Target_pos.msg
-)
+# add_message_files(
+#  DIRECTORY Target_pos.msg
+#  FILES
+# )
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -111,7 +111,7 @@ add_message_files(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ball_pos
-  CATKIN_DEPENDS cv_bridge roscpp rospy sensor_msgs std_msgs Target_pos.msg message_runtime
+  CATKIN_DEPENDS cv_bridge roscpp rospy sensor_msgs std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
@@ -136,7 +136,7 @@ include_directories(
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context

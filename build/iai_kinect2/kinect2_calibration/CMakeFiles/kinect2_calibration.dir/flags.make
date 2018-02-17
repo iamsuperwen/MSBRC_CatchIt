@@ -6,5 +6,5 @@ CXX_FLAGS =  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunuse
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"kinect2_calibration\"
 
-CXX_INCLUDES = -I/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_calibration/include -I/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/cv_bridge/include -I/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_bridge/include -I/home/catchme/ros/workspaces/catch_ws/src/iai_kinect2/kinect2_registration/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1 -isystem /opt/ros/kinetic/include/opencv-3.3.1/opencv 
+CXX_INCLUDES = -I/home/tsaichiawen/ros/workspace/catch_ws/src/iai_kinect2/kinect2_calibration/include -I/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/cv_bridge/include -I/home/tsaichiawen/ros/workspace/catch_ws/src/iai_kinect2/kinect2_bridge/include -I/home/tsaichiawen/ros/workspace/catch_ws/src/iai_kinect2/kinect2_registration/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1 -isystem /opt/ros/kinetic/include/opencv-3.3.1/opencv 
 

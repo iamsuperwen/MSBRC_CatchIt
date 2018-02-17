@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cv_bridge\"
 
-CXX_INCLUDES = -I/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/cv_bridge/include -isystem /opt/ros/kinetic/include/opencv-3.3.1 -isystem /opt/ros/kinetic/include/opencv-3.3.1/opencv -I/opt/ros/kinetic/include -I/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/cv_bridge/test/../src 
+CXX_INCLUDES = -I/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/cv_bridge/include -isystem /opt/ros/kinetic/include/opencv-3.3.1 -isystem /opt/ros/kinetic/include/opencv-3.3.1/opencv -I/opt/ros/kinetic/include -I/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/cv_bridge/test/../src 
 

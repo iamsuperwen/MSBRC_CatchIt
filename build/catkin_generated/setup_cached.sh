@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/catchme/ros/workspaces/catch_ws/build"
+export PWD="/home/tsaichiawen/ros/workspace/catch_ws/build"

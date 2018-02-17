@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95c83/fast"
-/usr/bin/make -f CMakeFiles/cmTC_95c83.dir/build.make CMakeFiles/cmTC_95c83.dir/build
-make[1]: Entering directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95c83.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_95c83.dir/CheckSymbolExists.c.o   -c /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_95c83
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95c83.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_95c83.dir/CheckSymbolExists.c.o  -o cmTC_95c83 -rdynamic 
-CMakeFiles/cmTC_95c83.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_119e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_119e1.dir/build.make CMakeFiles/cmTC_119e1.dir/build
+make[1]: Entering directory '/home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_119e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_119e1.dir/CheckSymbolExists.c.o   -c /home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_119e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_119e1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_119e1.dir/CheckSymbolExists.c.o  -o cmTC_119e1 -rdynamic 
+CMakeFiles/cmTC_119e1.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_95c83.dir/build.make:97: recipe for target 'cmTC_95c83' failed
-make[1]: *** [cmTC_95c83] Error 1
-make[1]: Leaving directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_95c83/fast' failed
-make: *** [cmTC_95c83/fast] Error 2
+CMakeFiles/cmTC_119e1.dir/build.make:97: recipe for target 'cmTC_119e1' failed
+make[1]: *** [cmTC_119e1] Error 1
+make[1]: Leaving directory '/home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_119e1/fast' failed
+make: *** [cmTC_119e1/fast] Error 2
 
-File /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,40 +34,40 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6e27/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6e27.dir/build.make CMakeFiles/cmTC_c6e27.dir/build
-make[1]: Entering directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6e27.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c6e27.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c6e27
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6e27.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c6e27.dir/CheckFunctionExists.c.o  -o cmTC_c6e27 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_63339/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63339.dir/build.make CMakeFiles/cmTC_63339.dir/build
+make[1]: Entering directory '/home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63339.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_63339.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_63339
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63339.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_63339.dir/CheckFunctionExists.c.o  -o cmTC_63339 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c6e27.dir/build.make:97: recipe for target 'cmTC_c6e27' failed
-make[1]: *** [cmTC_c6e27] Error 1
-make[1]: Leaving directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c6e27/fast' failed
-make: *** [cmTC_c6e27/fast] Error 2
+CMakeFiles/cmTC_63339.dir/build.make:97: recipe for target 'cmTC_63339' failed
+make[1]: *** [cmTC_63339] Error 1
+make[1]: Leaving directory '/home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_63339/fast' failed
+make: *** [cmTC_63339/fast] Error 2
 
 
 Performing C++ SOURCE FILE Test OpenCL_CXX_WORKS failed with the following output:
-Change Dir: /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b1f1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b1f1.dir/build.make CMakeFiles/cmTC_9b1f1.dir/build
-make[1]: Entering directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9b1f1.dir/src.cxx.o
-/usr/bin/c++    -I/include/internal  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -std=c++11 -fopenmp -DOpenCL_CXX_WORKS   -o CMakeFiles/cmTC_9b1f1.dir/src.cxx.o -c /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/src.cxx
-/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/src.cxx:2:21: fatal error: CL/cl.hpp: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_e4d58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4d58.dir/build.make CMakeFiles/cmTC_e4d58.dir/build
+make[1]: Entering directory '/home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4d58.dir/src.cxx.o
+/usr/bin/c++    -I/include/internal  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -std=c++11 -fopenmp -DOpenCL_CXX_WORKS   -o CMakeFiles/cmTC_e4d58.dir/src.cxx.o -c /home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp/src.cxx
+/home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp/src.cxx:2:21: fatal error: CL/cl.hpp: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_9b1f1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9b1f1.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_9b1f1.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9b1f1/fast' failed
-make: *** [cmTC_9b1f1/fast] Error 2
+CMakeFiles/cmTC_e4d58.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e4d58.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e4d58.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/tsaichiawen/ros/workspace/catch_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4d58/fast' failed
+make: *** [cmTC_e4d58/fast] Error 2
 
 Source file was:
 
@@ -78,102 +78,3 @@ int main() {
   cl::Device device;
   return 0;
 }
-Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_8c6e8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8c6e8.dir/build.make CMakeFiles/cmTC_8c6e8.dir/build
-make[1]: Entering directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8c6e8.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_8c6e8.dir/CheckSymbolExists.cxx.o -c /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
-   return ((int*)(&Q_WS_WIN))[argc];
-                   ^
-CMakeFiles/cmTC_8c6e8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8c6e8.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_8c6e8.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8c6e8/fast' failed
-make: *** [cmTC_8c6e8/fast] Error 2
-
-File /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <QtCore/qglobal.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef Q_WS_WIN
-  return ((int*)(&Q_WS_WIN))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_8423e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8423e.dir/build.make CMakeFiles/cmTC_8423e.dir/build
-make[1]: Entering directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8423e.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_8423e.dir/CheckSymbolExists.cxx.o -c /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
-   return ((int*)(&Q_WS_QWS))[argc];
-                   ^
-CMakeFiles/cmTC_8423e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8423e.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_8423e.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8423e/fast' failed
-make: *** [cmTC_8423e/fast] Error 2
-
-File /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <QtCore/qglobal.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef Q_WS_QWS
-  return ((int*)(&Q_WS_QWS))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_83c6c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83c6c.dir/build.make CMakeFiles/cmTC_83c6c.dir/build
-make[1]: Entering directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_83c6c.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_83c6c.dir/CheckSymbolExists.cxx.o -c /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
-   return ((int*)(&Q_WS_MAC))[argc];
-                   ^
-CMakeFiles/cmTC_83c6c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_83c6c.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_83c6c.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_83c6c/fast' failed
-make: *** [cmTC_83c6c/fast] Error 2
-
-File /home/catchme/ros/workspaces/catch_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <QtCore/qglobal.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef Q_WS_MAC
-  return ((int*)(&Q_WS_MAC))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/catchme/ros/workspaces/catch_ws/src
-# Build directory: /home/catchme/ros/workspaces/catch_ws/build
+# Source directory: /home/tsaichiawen/ros/workspace/catch_ws/src
+# Build directory: /home/tsaichiawen/ros/workspace/catch_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -16,4 +16,3 @@ subdirs(iai_kinect2/kinect2_registration)
 subdirs(iai_kinect2/kinect2_bridge)
 subdirs(iai_kinect2/kinect2_calibration)
 subdirs(iai_kinect2/kinect2_viewer)
-subdirs(tum_ics_ur10_controller_tutorial)

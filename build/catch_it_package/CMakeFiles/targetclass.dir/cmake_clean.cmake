@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/targetclass.dir/src/targetclass.cpp.o"
-  "/home/catchme/ros/workspaces/catch_ws/src/catch_it_package/lib/libtargetclass.pdb"
-  "/home/catchme/ros/workspaces/catch_ws/src/catch_it_package/lib/libtargetclass.so"
+  "/home/tsaichiawen/ros/workspace/catch_ws/src/catch_it_package/lib/libtargetclass.pdb"
+  "/home/tsaichiawen/ros/workspace/catch_ws/src/catch_it_package/lib/libtargetclass.so"
 )
 
 # Per-language clean rules from dependency scanning.

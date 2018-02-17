@@ -1,8 +1,8 @@
-# Install script for directory: /home/catchme/ros/workspaces/catch_ws/src/vision_opencv/cv_bridge/test
+# Install script for directory: /home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/cv_bridge/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/catchme/ros/workspaces/catch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tsaichiawen/ros/workspace/catch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

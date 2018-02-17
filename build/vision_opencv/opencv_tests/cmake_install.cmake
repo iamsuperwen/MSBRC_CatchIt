@@ -1,8 +1,8 @@
-# Install script for directory: /home/catchme/ros/workspaces/catch_ws/src/vision_opencv/opencv_tests
+# Install script for directory: /home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/opencv_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/catchme/ros/workspaces/catch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tsaichiawen/ros/workspace/catch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_tests.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/catch_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_tests.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_tests/cmake" TYPE FILE FILES
-    "/home/catchme/ros/workspaces/catch_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig.cmake"
-    "/home/catchme/ros/workspaces/catch_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig-version.cmake"
+    "/home/tsaichiawen/ros/workspace/catch_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig.cmake"
+    "/home/tsaichiawen/ros/workspace/catch_ws/build/vision_opencv/opencv_tests/catkin_generated/installspace/opencv_testsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_tests" TYPE FILE FILES "/home/catchme/ros/workspaces/catch_ws/src/vision_opencv/opencv_tests/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv_tests" TYPE FILE FILES "/home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/opencv_tests/package.xml")
 endif()
 

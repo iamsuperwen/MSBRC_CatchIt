@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/catchme/ros/workspaces/catch_ws/src/vision_opencv/image_geometry
-# Build directory: /home/catchme/ros/workspaces/catch_ws/build/vision_opencv/image_geometry
+# Source directory: /home/tsaichiawen/ros/workspace/catch_ws/src/vision_opencv/image_geometry
+# Build directory: /home/tsaichiawen/ros/workspace/catch_ws/build/vision_opencv/image_geometry
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
