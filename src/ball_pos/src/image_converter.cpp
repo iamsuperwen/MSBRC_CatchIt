@@ -7,7 +7,8 @@
 #include <visualization_msgs/Marker.h>
 #include <visualization_msgs/MarkerArray.h>
 
-#include <catch_it_package/Target_pos.h>
+#include <geometry_msgs/Point32.h>
+#include <tf/transform_broadcaster.h>
 
 static const std::string OPENCV_WINDOW = "Image window";
 
@@ -18,9 +19,9 @@ class ImageConverter
   image_transport::Subscriber image_sub_rgb;
   image_transport::Subscriber image_sub_d;
   image_transport::Publisher image_pub_;
-  ///cv::Point2f g_pointOfInterest;  //global variable?
 
   ros::Publisher vis_pub, goal_pub;
+  tf::TransformBroadcaster *br;
 
 public:
   ImageConverter(): it_(nh_)
@@ -96,8 +97,6 @@ public:
 
             //----- Get Interest point Depth(z) -----
             image_sub_d = it_.subscribe("/kinect2/sd/image_depth_rect", 1, boost::bind(&ImageConverter::depthCb, this, _1, center[i], radius[i]) );
-            //image_sub_d = it_.subscribe("/kinect2/sd/image_depth_rect", 1, boost::bind(&ImageConverter::depthCb, this, _1, center[i]) );
-            ///g_pointOfInterest = center
         }
      }
 
@@ -137,10 +136,10 @@ public:
     int valid_num = 0;
     float TarX=0, TarY=0, TarZ=0;  //averge
     visualization_msgs::Marker marker;
-    catch_it_package::Target_pos goal_msg;
+    geometry_msgs::Point32 goal_msg;
 
     vis_pub = nh_.advertise<visualization_msgs::Marker>( "visualization_marker", 0 );
-    goal_pub = nh_.advertise<catch_it_package::Target_pos>("target_pos", 1000);
+    goal_pub = nh_.advertise<geometry_msgs::Point32>("target_pos_inKinect", 100);
 
     for(int i=0; i<9; i++)
     {
@@ -162,16 +161,15 @@ public:
 
       // --- Add Target Marker ---
       marker = createMarkerMesh(TarX, TarY, TarZ, r);
-      /*marker.pose.position.x = TarX;
-      marker.pose.position.y = TarY;
-      marker.pose.position.z = TarZ;*/
-      
       goal_msg.x = TarX;
       goal_msg.y = TarY;
       goal_msg.z = TarZ;
 
+      broadcastTarget( goal_msg );
+
       vis_pub.publish( marker );
       goal_pub.publish( goal_msg );
+      
 
       ROS_INFO("(%f,%f)\tDepth: %f", TarX, TarY, TarZ);
     }else{
@@ -220,10 +218,20 @@ public:
       marker.color.r = 0.0;
       marker.color.g = 0.8;
       marker.color.b = 0.0;
-      marker.color.a = 0.8;
+      marker.color.a= 0.8;
       marker.lifetime = ros::Duration();
 
       return marker;
+  }
+
+  void broadcastTarget(geometry_msgs::Point32 tar_msg){
+    //tf::TransformBroadcaster br;
+    br = new tf::TransformBroadcaster();
+    tf::Transform transform;
+
+    transform.setOrigin( tf::Vector3(tar_msg.x, tar_msg.y, tar_msg.z) );
+    transform.setRotation( tf::Quaternion(0, 0, 0, 1) );
+    br->sendTransform( tf::StampedTransform(transform, ros::Time::now(), "kinect2_link", "target_point") );
   }
 
 };

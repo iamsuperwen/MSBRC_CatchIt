@@ -16,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   image_transport
   visualization_msgs # marker
   message_generation # msg
-  catch_it_package
+  tf
 )
 find_package(OpenCV REQUIRED)
 

@@ -1,4 +1,15 @@
+<?xml version="1.0"?>
 <launch>
-    <node name="ball_pos_node" pkg="ball_pos" type="ball_pos_node.py" />
 
+  <!--LAUNCH A NODE TO PUBLISH AN STATIC TRANSFORMATION BETWEEN /map and /WORLD WITH A FREQ 100-->
+  <node pkg="tf" type="static_transform_publisher" name="static_transformation" args="0 0 0 0 0 0 1 world map 10" />
+  <node pkg="tf" type="static_transform_publisher" name="static_kinect2world" args="0 0 0 0.5 0.5 -0.5 -0.5 world kinect2_link 10" />
+
+  <!--LAUNCH RVIZ NODE -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ball_pos)/launch/rviz_config/kinect_pcl.rviz"/>
+
+
+  <!--LAUNCH VISUALIZATION MARKER NODE-->
+  <node name="kinect_vision_node" pkg="ball_pos" type="ball_pos_node" output="screen"/>
+ 
 </launch>
